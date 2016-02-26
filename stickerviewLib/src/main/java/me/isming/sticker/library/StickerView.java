@@ -385,7 +385,7 @@ public class StickerView extends View {
     private float caculateLength(float x, float y) {
         float ex = x - mPoints[8];
         float ey = y - mPoints[9];
-        return Math.sqrt(ex*ex + ey*ey);
+        return (float)Math.sqrt(ex*ex + ey*ey);
     }
 
 
